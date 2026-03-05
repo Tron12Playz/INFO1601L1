@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First Test website</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+        <h1>This is my first website</h1>
+    </header>
+
+<article>
+    <section>
+        <h2>Welcome</h2>
+    </section>
+
+<section>
+    <figure>
+        <img src="https://api.images.cat/300/300" alt="a random cat"> <!-- the other cat image site was down lol-->
+        <figcaption>Fig 1. A random cat image</figcaption>
+    </figure>
+</section>
+
+<section>
+        <details>
+            <summary>Hobbies</summary>
+            <ul>
+                <li>Video Games (clicking cicrles)</li>
+                <li>Sleeping</li>
+                <li>Music</li>
+                <li>Anime</li>
+            </ul>
+        </details>    
+    </section>
+<br>
+<section>
+    <dialog id="mydialog">
+        This is a dialog
+            <a href="javascript:mydialog.removeAttribute('open')">close</a>
+    </dialog>
+
+    <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+        Open Dialog
+    </a>
+</section>
+</article>    
+</body>
+
+</html>
